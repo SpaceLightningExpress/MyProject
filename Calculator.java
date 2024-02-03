@@ -66,7 +66,7 @@ public class Calculator {
 
                     System.out.println("Masukan Nomor Kedua");
                     double Pengurangannomor2 = scanner.nextDouble();
-                    if (Pengurangannomor2 != 0) ;
+                    if(Pengurangannomor2 != 0);
 
                     double Pengurangan = Pengurangannomor1 - Pengurangannomor2;
 
@@ -83,7 +83,7 @@ public class Calculator {
 
                     System.out.println("Masukan Nomor Kedua");
                     double Pembagiannomor2 = scanner.nextDouble();
-                    if (Pembagiannomor2 != 0) ;
+                    if(Pembagiannomor2 != 0);
 
                     double Pembagian = Pembagiannomor1 / Pembagiannomor2;
 
