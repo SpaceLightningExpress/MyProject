@@ -46,10 +46,10 @@ public class Main {
                     System.out.println("Anda telah Memilih Perkalian");
 
                     System.out.println("Pilih Nomor Pertama");
-                    Double Perkaliannomor1 = scanner.nextDouble();
+                    double Perkaliannomor1 = scanner.nextDouble();
 
                     System.out.println("Pilih Nomor Kedua");
-                    Double Perkaliannomor2 = scanner.nextDouble();
+                    double Perkaliannomor2 = scanner.nextDouble();
 
                     double Perkalian = Perkaliannomor1 * Perkaliannomor2;
 
@@ -79,10 +79,10 @@ public class Main {
                     System.out.println("Anda Memilih Pembagian");
 
                     System.out.println("Masukan Nomor Pertama");
-                    Double Pembagiannomor1 = scanner.nextDouble();
+                    double Pembagiannomor1 = scanner.nextDouble();
 
                     System.out.println("Masukan Nomor Kedua");
-                    Double Pembagiannomor2 = scanner.nextDouble();
+                    double Pembagiannomor2 = scanner.nextDouble();
                     if (Pembagiannomor2 != 0) ;
 
                     double Pembagian = Pembagiannomor1 / Pembagiannomor2;
