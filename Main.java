@@ -39,7 +39,7 @@ public class Main {
 
                     System.out.println(" Hasil dari: " + Penambahannomor1 + " + " + Penambahannomor2 + " = " + Penambahan);
                     System.out.println("===============================");
-
+                    
                     break;
                 case 2:
                     System.out.println("===============================");
@@ -60,7 +60,7 @@ public class Main {
                 case 3:
                     System.out.println("===============================");
                     System.out.println("Anda Memilih Pengurangan");
-
+                    
                     System.out.println("Masukan Nomor Pertama");
                     double Pengurangannomor1 = scanner.nextDouble();
 
@@ -88,6 +88,7 @@ public class Main {
                     double Pembagian = Pembagiannomor1 / Pembagiannomor2;
 
                     System.out.println("Hasil Dari: " + Pembagiannomor1 + " / " + Pembagiannomor2 + " = " + Pembagian);
+                    System.out.println("===============================")
 
                     break;
                 case 5:
