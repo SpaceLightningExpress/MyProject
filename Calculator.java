@@ -41,8 +41,7 @@ public class Calculator {
                     double Penambahan = Penambahannomor1 + Penambahannomor2;
 
                     System.out.println(" Hasil dari: " + Penambahannomor1 + " + " + Penambahannomor2 + " = " + Penambahan);
-                    System.out.println("===============================");
-                    
+                    System.out.println("===============================");                    
                     break;
                 //2 multiplication
                 case 2:
@@ -70,13 +69,11 @@ public class Calculator {
 
                     System.out.println("Masukan Nomor Kedua");
                     double Pengurangannomor2 = scanner.nextDouble();
-                    if(Pengurangannomor2 != 0);
 
                     double Pengurangan = Pengurangannomor1 - Pengurangannomor2;
 
                     System.out.println("Hasil Dari: " + Pengurangannomor1 + " - " + Pengurangannomor2 + " = " + Pengurangan);
                     System.out.println("===============================");
-
                     break;
                 //distribution
                 case 4:
@@ -88,7 +85,6 @@ public class Calculator {
 
                     System.out.println("Masukan Nomor Kedua");
                     double Pembagiannomor2 = scanner.nextDouble();
-                    if(Pembagiannomor2 != 0);
 
                     double Pembagian = Pembagiannomor1 / Pembagiannomor2;
 
@@ -124,7 +120,8 @@ public class Calculator {
                     System.out.println("===============================");
                     break;
 
-                default: //If The selected options doenst registerd this code will be executed!
+                //If The selected options doenst registerd this code will be executed!
+                default: 
                     System.out.println("===============================");
                     System.out.println("Nomor yang anda pilih tidak termasuk dalam kode");
                     System.out.println("===============================");
