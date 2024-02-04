@@ -4,14 +4,16 @@ public class Calculator {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-
-        //Information
-        //1 Plus
-        //2 multiplication
-        //3 subtraction
-        //4 distribution
-        //5 randomzied
-
+        /*
+        ==========================
+        Select Operation Calculator
+        1 Plus
+        2 multiplication
+        3 subtraction
+        4 distribution
+        5 randomzied 
+        ==========================
+        */        
             System.out.println("===============================");
             System.out.println("Pilih Operasi Calculator");
             System.out.println("1. Penambahan  (+)");
@@ -24,7 +26,8 @@ public class Calculator {
         double Pilihan = scanner.nextDouble();
 
         switch ((int) Pilihan) {
-
+            
+            //plus
             case 1:
                     System.out.println("===============================");
                     System.out.println("Anda Memilih Penambahan");
@@ -39,7 +42,8 @@ public class Calculator {
 
                     System.out.println(" Hasil dari: " + Penambahannomor1 + " + " + Penambahannomor2 + " = " + Penambahan);
                     break;
-
+                
+                //multiplication
                 case 2:
                     System.out.println("===============================");
                     System.out.println("Anda telah Memilih Perkalian");
@@ -54,7 +58,8 @@ public class Calculator {
 
                     System.out.println("Hasil Dari: " + Perkaliannomor1 + " + " + Perkaliannomor2 + " = " + Perkalian);
                     break;
-
+                
+                //subtraction
                 case 3:
                     System.out.println("===============================");
                     System.out.println("Anda Memilih Pengurangan");
@@ -70,6 +75,7 @@ public class Calculator {
                     System.out.println("Hasil Dari: " + Pengurangannomor1 + " - " + Pengurangannomor2 + " = " + Pengurangan);
                     break;
 
+                //distribution
                 case 4:
                     System.out.println("===============================");
                     System.out.println("Anda Memilih Pembagian");
@@ -85,6 +91,19 @@ public class Calculator {
                     System.out.println("Hasil Dari: " + Pembagiannomor1 + " / " + Pembagiannomor2 + " = " + Pembagian);
                     break;
 
+                //randomized
+
+                    /* 
+                        This code runs separately when the number you enter in this code they will do the random number separately
+                        int Acak1 = (int) (Math.random() * AcakNomor1);
+                        int Acak2 = (int) (Math.random() * AcakNomor2);
+                        
+                        When the code has got a random number, this code will combine the 2 numbers and get the answer
+                        int Acak3 = Acak1 + Acak2;
+                        
+                        i didnt know if this code was correct or not beacuse i am trying to figure it out but it looks like this should works
+                            
+                    */
                 case 5:
                     System.out.println("===============================");
                     System.out.println("Anda Memilih AcakRandom");
@@ -101,7 +120,8 @@ public class Calculator {
 
                     System.out.println("Nomor Yang Diacak: " + Acak3);
                     break;
-
+                
+                //if the console doenst detect any code or any selection this error warning will be send
                 default:
                     System.out.println("===============================");
                     System.out.println("Nomor yang anda pilih tidak termasuk dalam kode");
