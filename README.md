@@ -1,2 +1,1 @@
-Simple Calculator For Java Code with my own style !!
-Not Recomended use my own style 
+this project is for learning purpose if u want to try my code its free to use
