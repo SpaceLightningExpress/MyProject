@@ -1,4 +1,7 @@
 
+/*
+This project is stolen i just wanna learn how to make rock paper scissors and learn how to make randomized but on string version i want to make my own way maybe later
+*/
 
 import java.util.Random;
 import java.util.Scanner;
